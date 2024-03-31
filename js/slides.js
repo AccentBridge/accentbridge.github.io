@@ -1,20 +1,3 @@
-/*
-
-   _____ _       _                 _  _____
-  / ___/| (*)   | |               | |/ ___/  v 4.1
- | (___ | |_  __| | ___ ____      | | (___
-  \___ \| | |/ _` |/ _ / __/  _   | |\___ \
-  ____) | | | (_| |  __\__ \ | |__| |____) |
- /_____/|_|_|\__,_|\___/___/  \____//_____/
-
-
-This file contains scripts required for the proper functionality and display
-of your Slides Project. It also requires plugins.js and jquery-3.3.1 to run this script properly.
-
-https://designmodo.com/slides/
-
-*/
-
 window.inAction = 1;
 window.allowSlide = 1;
 window.blockScroll = 1;
@@ -786,25 +769,6 @@ $(document).ready(function() { "use strict";
 
 
 
-
-
-
-
-
-
-
-/***
- *       _____
- *      / ____|       (*)
- *     | (_____      ___ _ __   ___
- *      \___ \ \ /\ / / | '_ \ / _ \
- *      ____) \ V  V /| | |_) |  __/
- *     |_____/ \_/\_/ |_| .__/ \___|
- *                      | |
- *                      |_|
- *
- *     Swipes for mobile devices
- */
 
 
   $('.mobile .slides:not(.scroll):not(.simplifiedMobile), .slides.desktopSwipe').swipe({
